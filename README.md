@@ -7,6 +7,9 @@ Capacitive touch sensors are very popular compared to resistive touch sensors du
 implement multi-touch sensors. Such sensors need to be touched with capacitive material such as human skin. This project
 implements such a single-touch sensor using common BJTs and a microcontroller unit (Atmel AVR).
 
+![Screenshot (57)](https://user-images.githubusercontent.com/64007722/79828472-5f0e0280-83be-11ea-90d7-102e74bd9739.png)
+
+
 Touching the interface will cause minute current to flow across the base junction of the first amplifier. The square-amplified
 current flowing through the collector junction of the second amplifier will cause a drop in the potential Vo which can be digitally
 detected by the microcontroller unit.
